@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="section-class">
+   <section class="articles">
+       <article>
+<h3>
+    <br>
+    <Center> <b> Agregar escolaridad </b> </Center>
+
+</h3>
+   <br>
+   <br>
+<form action="/escolaridad_fagrega" method="post">
+   <div class="container">
+          <div class="form-row">
+               <div class="col-xs-12 ">
+                <div class="mb-3">
+                      <label for="descripcion" class="form-label"><strong> Ingrese la escolaridad:</strong></label>
+                      <input type="text" class="form-control" name="descripcion" id="descripcion"required></input>
+                </div>
+                </div>
+          </div>
+          <br>
+       <center><button type="submit" class="btn btn-info">Enviar</button></center>
+       <br>
+    </div>
+
+</form>
+</article>
+</section>
+{% endblock %}

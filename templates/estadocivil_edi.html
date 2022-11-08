@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section class="section-class">
+    <section class="articles">
+        <article>
+            <h2>Estado civil</h2>
+        </article>
+        <article>
+<h3>
+    <br>
+    <Center> <b> Editar Estado civil </b> </Center>
+
+</h3>
+   <br>
+   <br>
+    <form action="/estadocivil_fedita/{{estadocivil.0}}" method="post">
+        <div class="container">
+          <div class="form-row">
+               <div class="col-xs-12 ">
+                <div class="mb-3">
+                      <label for="descripcion" class="form-label"><strong>Ingrese el Estado Civil:</strong></label>
+                      <input type="text" class="form-control" name="descripcion" id="descripcion" placeholder="estadocivil" value="{{estadocivil.1}}">
+                </div>
+
+                </div>
+                <br>
+              <center></centerA><button type="submit" class="btn btn-info">Actualizar</button></center>
+              <br>
+          </div>
+    </div>
+
+</form>
+</article>
+</section>
+
+{% endblock %}

@@ -1,0 +1,362 @@
+
+
+
+
+
+
+#header {
+    background: #050c00;
+    overflow: hidden;
+  
+}
+
+ul, ol {
+    padding-top: 37px;
+    list-style:none;
+    padding-bottom: 15px;
+}
+
+.nav > li {
+    width: 45%;
+    float: left;
+    box-shadow: 0 0 10px 0 #5e5e5e inset, 0 0 10px 4px #c51212;
+    margin: 10px;
+}
+
+.nav li a {
+    padding: 10px 20px;
+    display:block;
+    color:#fff ;
+    text-decoration: none;
+    box-shadow: 0 0 40px 40px #050c00 inset, 0 0 0 0 #2d4d63;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.nav li a:hover {
+    background: #B1B2C2 ;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.navbar-brand{
+    width: 80px;
+    float: left;
+    margin: 10px;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(/static/Imag/Formula1.jpg);
+    
+}
+
+header, .main, footer{
+    width: 90%;
+    margin: 1% auto;
+   
+}
+
+header nav {
+    background: #569727;
+    overflow: hidden;
+    margin: 10px;
+}
+
+header nav ul {
+    list-style: none;
+
+}
+header nav ul li{
+    float: left;
+    box-shadow: 0 0 10px 0 #165e2e inset, 0 0 10px 4px #7bd170;
+    margin: 10px;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display:block;
+}
+
+
+
+.main .articles{
+    width:68.5%;
+    margin-right: 1.5%;
+    float:left;
+    
+}
+.main .articles article{
+    padding: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    background: linear-gradient(#000000, rgb(22, 22, 22));
+}
+.section-class .articles{
+    width: 90%;
+    margin-left: 5%;
+    float: center;
+}
+
+.section-class .articles article {
+    padding: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    background: linear-gradient(#000000, rgb(187, 43, 43));
+}
+aside{
+    width: 30%;
+  
+    border-radius: 20px;
+    color: aliceblue;
+    float: left;
+    padding: 20px;
+    box-sizing:border-box;
+    text-align: auto;
+    background: linear-gradient(#000000, rgb(22, 22, 22));
+}
+footer{
+    background: #010715;
+    margin-bottom: 0px;
+    color: rgb(170, 170, 170);
+    clear: both;
+    text-align: center;
+    background: #000000;
+    float: left;
+    width: 100%;
+    float: center;
+}
+
+.main article{
+    background: #B1B2AB ;
+}
+
+
+
+
+.pt-100 {
+    padding-top: 100px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.section-header {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section-header i {
+    color: #ff007d;
+    font-size: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.section-header h2 {
+
+
+    margin: 0;
+}
+.section-header p {
+    max-width: 500px;
+    margin: 20px auto 0;
+}
+.single-publication {
+    border: 1px solid #f2eee2;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.single-publication figure {
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+.single-publication figure > a {
+    background-color: #fafafa;
+    display: block;
+}
+.single-publication figure ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: -50px;
+    top: 20px;
+    transition: .6s;
+    -webkit-transition: .6s;
+}
+.single-publication:hover figure ul {
+    right: 15px;
+}
+.single-publication figure ul li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    background: #ff007d;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    line-height: 35px;
+    color: #fff;
+}
+.single-publication figure ul li a:hover {
+    color: #fff;
+    background: #e50663;
+}
+.single-publication .publication-content {
+    text-align: center;
+    padding: 20px;
+}
+.single-publication .publication-content .category {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #ff007d;
+    font-weight: 600;
+}
+.single-publication .publication-content h3 {
+    font-weight: 600;
+    margin: 8px 0 10px;
+    font-size: 20px;
+}
+.single-publication .publication-content h3 a {
+    color: #98d9e7;
+}
+.single-publication .publication-content h3 a:hover {
+    color: #ff007d;
+}
+.single-publication .publication-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.single-publication .publication-content ul li {
+    display: inline-block;
+    font-size: 18px;
+    color: #fec42d;
+}
+.single-publication .publication-content .price {
+    font-size: 18px;
+    color: #940000;
+}
+.single-publication .publication-content .price span {
+    color: #ececec;
+    text-decoration: line-through;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.single-publication .add-to-cart {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    -webkit-transform: scale(.7);
+    transform: scale(.7);
+    height: 105px;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.single-publication:hover .add-to-cart {
+    visibility: visible;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 1;
+}
+.single-publication .add-to-cart .default-btn {
+    margin-top: 28px;
+    padding: 8px 25px;
+    font-size: 14px;
+}
+.single-publication .category {
+    margin: 0;
+}
+.single-publication .add-to-cart .default-btn {
+    margin-top: 28px;
+    padding: 8px 25px;
+    font-size: 14px;
+}
+.default-btn {
+    background-color: #ff007d;
+    color: #fff;
+    border: 1px solid #ff007d;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.default-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-info li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
